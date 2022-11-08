@@ -7,6 +7,10 @@
   <link rel="stylesheet" href="quotes.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="viewport" content="width=960px">
+  <link rel=”stylesheet” href=”css/bootstrap.css”>
+  <link rel=”stylesheet” href=”css/bootstrap-responsive.css”>
+
+
 
 
 
@@ -120,8 +124,24 @@
         <span class="dot" onclick="currentSlide(3)"></span> 
         <span class="dot" onclick="currentSlide(4)"></span> 
       </div>
-      <div class="row">
 
+      <div class="row">
+        <div class="column left" >
+          <i class="material-icons md-33">place</i>
+          <span > <p>Nairobi</p></span> 
+                </div>
+        <div class="column middle" 
+         
+          <p>070774411 | example@gmail.com</p>
+
+        </div>
+        <div class="column right">
+          <i class="material-icons md-33">place</i>
+          <span > <p>Mombasa</p></span> 
+        </div>
+      </div>
+
+      <!-- <div class="row">
       <div class="col-sm-3">
         <div class="card">
 
@@ -134,63 +154,37 @@
         
         </div>
       </div>
+
       <div class="col-sm-3">
         <div class="card">
 
           <div class="card-body">
-              <p>070774411 | example@gmail.com</p>
+            <i class="material-icons md-33">place</i>
+            <span > <p>070774411 | example@gmail.com</p></span> 
+    
 
-
-          </div>
-         
+      </div>
+        
         </div>
       </div>
+
       <div class="col-sm-3">
         <div class="card">
 
           <div class="card-body">
-           
             <i class="material-icons md-33">place</i>
             <span > <p>Mombasa</p></span> 
     
+    
 
-          </div>
-       
+      </div>
+        
         </div>
       </div>
-    </div>
-
-      <!-- <div class="row">
-        <div class="column">
-          <i class="material-icons md-33">place</i>
-          <p>Nairobi</p>
-        </div>
-        <div class="column">
-          <p>070774411 | example@gmail.com</p>
-        </div>
-        <div class="column">
-          <i class="material-icons md-34">place</i>
-           <p>Mombasa</p>
-        </div>
-      </div> -->
+   
 
 
-    <!-- <div class="footer">
-      
-       <div class="l1" >
-        <i class="material-icons md-33">place</i>
-        <span > <p>Nairobi</p></span> 
-        <i class="material-icons md-33">place</i>
-        <span > <p>Mombasa</p></span> 
-      </div> 
-
-        <p>0700774411 | example@gmail.com</p>
-
-      </div> -->
-
-
-
- 
+    </div> -->
 
 <!-- partial -->
 <script>
@@ -219,77 +213,67 @@
 
 </script>
 <style>
-  body{
-  width: 94%;
-  height: auto;
-  overflow-y: scroll;
- 
 
-  
-
+* {
+  box-sizing: border-box;
 }
-         .row {
-      position: relative;
-      display: inline-block;
-      justify-content: center;
-      align-items: center;
-      color: white;
 
-      width:90%;
-     margin-left: 5%;
-     margin-right: 5%;
-    margin-top: 20%;
-    display: block;
-}
-    
-    .row .card {
-      display: inline-block;
-      position: relative;
-      width: 314px;
-      padding: 20px;
-      margin: 1%;
-      margin: 0 0 18px;
-      content: '';
-      text-align: center;
-    
-
-    }
-
-  /* .footer{
-    color: white;
-    margin-left: 75%;
-    margin-top: 17%;
-
-    width: 100%;
-    text-align: left;
-    position: fixed;
-  }
-
-  .footer .l1 p{
-    margin-top: -1.5%;
-    margin-left: 3%;
-  } */
-
-  /* .row{
-    color: white;
-    margin-left: 0;
-    margin-top: 22%;
-    text-align: center;
-   
-  } */
-
-  /* .column {
+/* Create three unequal columns that floats next to each other */
+.column {
   float: left;
-  width: 33.33%;
+  padding: 10px;
   text-align: center;
-} */
+  width: 100%;
+  margin: 0%;
+
+}
+.row .column{
+
+}
+
+.left, .right {
+  width: 25%;
+  margin-left: -10%;
+}
+
+.middle {
+  width: 50%;
+  margin-left: 10%;
+}
+.right {
+  width: 25%;
+  margin-left: 10%;
+
+}
 
 /* Clear floats after the columns */
-/* .row:after {
+.row:after {
   content: "";
   display: table;
   clear: both;
-} */
+  width: 100%;
+}
+.row{
+  position: fixed;
+display:block;
+margin: 0 auto;
+width: 100%;
+padding-top:15px ;
+padding: 15px;
+display: flex;
+margin-top: 2.5%;
+align-items: center;
+justify-content: center;
+top: 85%;
+bottom: 45%;
+margin-left: 25%;
+
+border: 0;
+font-size: 20px;
+color: white;
+
+
+}
 
 .about-logo{
   margin-top: -5%;
@@ -301,7 +285,7 @@
 
 
       }
-        .about-logo img{
+  .about-logo img{
           display: block;
   margin-left: 0%;
   height: 300px;
@@ -311,17 +295,8 @@
   }
     @media only screen and (min-width: 375px) and (max-width: 1660px){
 
-      .menu #overlay1{
-  visibility: visible;
-  font-size: 15px;
-  margin: 0 auto;
-  margin-top: -25%;
 
-}
-.menu i{
-  visibility: hidden;
 
-}
 .btn:hover #overlay{
   visibility: visible;
   margin-top:-28%;
@@ -333,9 +308,12 @@
 
 }
 .icon:hover #overlay1{
-  visibility: hidden;
+  visibility: visible;
   position: absolute;
   opacity: 1;
+  margin: 0 auto;
+  margin-left: 18%;
+  margin-top: -26%;
   display: block;
   align-items: center;
   justify-content: center;
@@ -343,20 +321,25 @@
 
  
 }
-.icon:hover .material-icons.md-35{
-  visibility: visible;
-}
-.btn.active #overlay1{
-  visibility: hidden;
-}
+
 body{
   width: 94%;
-  height: 100%;
 
   
 
 }
     }
+    .col-sm-3{
+      
+      width: auto;
+
+  
+    }
+
+
+
+    
+  
 </style>
 </body>
 </html>
