@@ -7,6 +7,10 @@
   <link rel="stylesheet" href="quotes.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="viewport" content="width=960px">
+  <link rel=”stylesheet” href=”css/bootstrap.css”>
+  <link rel=”stylesheet” href=”css/bootstrap-responsive.css”>
+
+
 
 
 
@@ -122,78 +126,21 @@
       </div>
 
       <div class="row">
-      <div class="col-sm-3">
-        <div class="card">
-
-          <div class="card-body">
-            <i class="material-icons md-33">place</i>
-            <span > <p>Nairobi</p></span> 
-    
-
-      </div>
-        
-        </div>
-      </div>
-   
-      <div class="col-sm-3">
-        <div class="card">
-
-          <div class="card-body">
-              <p>070774411 | example@gmail.com</p>
-
-
-          </div>
-         
-        </div>
-      </div>
-      <div class="col-sm-3">
-        <div class="card">
-
-          <div class="card-body">
-           
-            <i class="material-icons md-33">place</i>
-            <span > <p>Mombasa</p></span> 
-    
-
-          </div>
-       
-        </div>
-      </div>
-    </div>
-
-      <!-- <div class="row">
-        <div class="column">
+        <div class="column left" >
           <i class="material-icons md-33">place</i>
-          <p>Nairobi</p>
-        </div>
-        <div class="column">
+          <span > <p>Nairobi</p></span> 
+                </div>
+        <div class="column middle" >         
           <p>070774411 | example@gmail.com</p>
+
         </div>
-        <div class="column">
-          <i class="material-icons md-34">place</i>
-           <p>Mombasa</p>
+        <div class="column right">
+          <i class="material-icons md-33">place</i>
+          <span > <p>Mombasa</p></span> 
         </div>
-      </div> -->
+      </div>
 
 
-    <!-- <div class="footer">
-      
-       <div class="l1" >
-        <i class="material-icons md-33">place</i>
-        <span > <p>Nairobi</p></span> 
-        <i class="material-icons md-33">place</i>
-        <span > <p>Mombasa</p></span> 
-      </div> 
-
-        <p>0700774411 | example@gmail.com</p>
-
-      </div> -->
-
-
-
- 
-
-<!-- partial -->
 <script>
   const slide = document.getElementsByClassName("slide");
   const leftSlide = document.querySelector(".left");
@@ -221,7 +168,65 @@
 </script>
 <style>
 
+* {
+  box-sizing: border-box;
+}
 
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  margin: 0%;
+
+}
+
+
+.left, .right {
+  width: 25%;
+  margin-left: -10%;
+}
+
+.middle {
+  width: 50%;
+  margin-left: 10%;
+}
+.right {
+  width: 25%;
+  margin-left: 10%;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  width: 100%;
+
+}
+.row{
+  position: fixed;
+display:block;
+margin: 0 auto;
+width: 100%;
+padding-top:15px ;
+padding: 15px;
+display: flex;
+margin-top: 2.5%;
+align-items: center;
+justify-content: center;
+top: 85%;
+bottom: 45%;
+margin-left: 25%;
+
+border: 0;
+font-size: 20px;
+color: white;
+
+
+}
 
 .about-logo{
   margin-top: -5%;
@@ -233,7 +238,7 @@
 
 
       }
-        .about-logo img{
+  .about-logo img{
           display: block;
   margin-left: 0%;
   height: 300px;
@@ -278,42 +283,16 @@ body{
 }
     }
     .col-sm-3{
-      margin: 0 auto;
-    }
-    .row {
-position: fixed;
-display:block;
-width: 100%;
-padding-top:15px ;
-padding: 15px;
-display: flex;
-margin-top: 2.5%;
-margin: 0 auto;
-top: 85%;
-bottom: 45%;
-height: 100px;
-
-border: 0;
-font-size: 20px;
-color: white;
- 
-}
-
-
-    
-    .row .card {
-      display: inline-block;
-      position: relative;
-      width: 314px;
-      padding: 20px;
       
-      content: '';
-      text-align: center;
-      border:2px white;
+      width: auto;
+
+  
+    }
+
+
 
     
-
-    }
+  
 </style>
 </body>
 </html>

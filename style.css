@@ -17,8 +17,9 @@ input {
 }
 .menu {
   margin: 0 auto;
-  position: fixed;
-  display: block;
+  z-index: 1000; 
+ position: absolute;
+ display: block;
   align-items:center;
   justify-content: center;
   top:37%;
