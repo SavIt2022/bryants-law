@@ -184,18 +184,18 @@ Areas of expertise: education, environment, debt management
 
 
 <script>
-let more = document.querySelectorAll('.more')
-for (let i = 0; i < more.length; i++) {
-more[i].addEventListener('click', function () {
-  more[i].parentNode.classList.toggle('active')
-})
-}
-let lmore = document.querySelectorAll('.lmore')
-for (let i = 0; i < lmore.length; i++) {
-lmore[i].addEventListener('click', function () {
-  lmore[i].parentNode.classList.toggle('active')
-})
-}
+// let more = document.querySelectorAll('.more')
+// for (let i = 0; i < more.length; i++) {
+// more[i].addEventListener('click', function () {
+//   more[i].parentNode.classList.toggle('active')
+// })
+// }
+// let lmore = document.querySelectorAll('.lmore')
+// for (let i = 0; i < lmore.length; i++) {
+// lmore[i].addEventListener('click', function () {
+//   lmore[i].parentNode.classList.toggle('active')
+// })
+// }
 </script>
 
 
@@ -345,53 +345,17 @@ font-size: 23px;
       margin-top: 5%;
     }
 
-    .row .card .h3::before {
-      content: '';
-      
-      left: 0;
-      bottom: 0;
-
-
-    }
-
-
-    .row .card .more::before {
-      content: 'Read more';
-
-      position: relative;
-      padding: 10px;
-      background-color: #050A30;
-      margin-top: 15px;
-      display: inline-block;
-      cursor: pointer;
-      text-transform: uppercase;
-      color: white;
-      letter-spacing: 2px;
-      font-size: 14px;
-      width: 100%;
-      margin: 0 auto;
-
-    }
+ 
 
 
 
-    .row .card.active .more::before {
-      content: 'Read less';
-    }
-    .row .card.active {
-     
-      width: 79%;
-    }
+
+
+
+
      
 
-    .row .card.active .content {
-      height: auto;
-    }
-
-    .row .card.active .content::before {
-      display: none;
-    }
-
+   
 
 
     .team-content {
@@ -452,12 +416,6 @@ width: auto;
 }
 
 
-.row .col-sm-3  .card.active {
-     
-     width: 120%;
-margin-left: -10%;
-direction: ltr;
-   }
     .row .col-sm-3 .card img{
     height: 120px;
     width: 220px;
@@ -487,36 +445,12 @@ direction: ltr;
     }
 
 
-        .row .col-sm-3  .card .more::before {
-      content: 'Read more';
-      position: relative;
-      padding: 10px 15px;
-      background-color: #050A30;
-      margin-top: 15px;
-      display: inline-block;
-      cursor: pointer;
-      text-transform: uppercase;
-      color: white;
-      letter-spacing: 2px;
-      font-size: 14px;
-      width: 100%;
-      margin: 0 auto;
-
-    }
-
-        .row .col-sm-3  .card.active .more::before {
-      content: 'Read less';
-    }
 
      
 
-    .row .col-sm-3  .card.active .card-body {
-      height: auto;
-    }
+  
 
-    .row .col-sm-3  .card.active .card-body ::before {
-      display: none;
-    }
+ 
     .container{
       margin-left: 5%;
       margin-right: 5%;
