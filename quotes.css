@@ -25,9 +25,9 @@
   }
   
   /* Slides */
-  .mySlides p {
-  
-    margin-top: -1%;
+  .mySlides q{
+  display: block;
+    margin-top: -8%;
    
   }
     /* Slides */
