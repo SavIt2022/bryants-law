@@ -106,4 +106,5 @@
   /* Add a blue color to the author */
   .author {
     color:  rgb(164 122 47);
+    margin: -1%;
 }
