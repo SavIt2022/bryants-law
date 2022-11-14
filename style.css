@@ -66,70 +66,80 @@ input {
   transform: scale(1.0);
 
 }
-.btn:nth-child(2) {
+.btn2:hover, .btn3:hover, .btn4:hover,.btn5:hover,.btn6:hover,.btn7:hover,.btn8:hover,.btn9:hover{
+  box-shadow: 0 1px 15px rgba(4, 242, 250, 0.438), 0 1px 28px rgba(5, 219, 247, 0.815);
+  transform: scale(1.0);
+
+}
+.btn2:nth-child(2) {
   top: 0px;
   left: 0px;
   -webkit-transition-delay: 0.1s;
   transition-delay: 0.1s;
 
 }
-.btn:nth-child(3) {
+.btn3:nth-child(3) {
   left: 0px;
   -webkit-transition-delay: 0.2s;
   transition-delay: 0.2s;
 }
-.btn:nth-child(4) {
+.btn4:nth-child(4) {
   top: 0px;
   left: 0px;
   -webkit-transition-delay: 0.3s;
   transition-delay: 0.3s;
 }
-.btn:nth-child(5) {
+.btn5:nth-child(5) {
   top: 0px;
   -webkit-transition-delay: 0.4s;
   transition-delay: 0.4s;
 }
-.btn:nth-child(6) {
+.btn6:nth-child(6) {
   top: 0px;
   left: 0px;
   -webkit-transition-delay: 0.5s;
   transition-delay: 0.5s;
 }
-.btn:nth-child(7) {
+.btn7:nth-child(7) {
   left: 0px;
   -webkit-transition-delay: 0.6s;
   transition-delay: 0.6s;
 }
-.btn:nth-child(8) {
+.btn8:nth-child(8) {
   top: 0px;
   left: 0px;
   -webkit-transition-delay: 0.7s;
   transition-delay: 0.7s;
 }
-input#toggle:checked ~ #show-menu .btn:nth-child(2) {
+.btn9:nth-child(9) {
+  top: 0px;
+  -webkit-transition-delay: 0.7s;
+  transition-delay: 0.7s;
+}
+input#toggle:checked ~ #show-menu .btn2:nth-child(2) {
   top: -200px;
   opacity: 1;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 
-input#toggle:checked ~ #show-menu .btn:nth-child(3) {
+input#toggle:checked ~ #show-menu .btn3:nth-child(3) {
   top: -140px;
   left: 140px;
   opacity: 1;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
-input#toggle:checked ~ #show-menu .btn:nth-child(4) {
+input#toggle:checked ~ #show-menu .btn4:nth-child(4) {
   left: 200px;
   opacity: 1;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
-input#toggle:checked ~ #show-menu .btn:nth-child(5) {
+input#toggle:checked ~ #show-menu .btn5:nth-child(5) {
   top: 140px;
   left: 140px;
   opacity: 1;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
-input#toggle:checked ~ #show-menu .btn:nth-child(6) {
+input#toggle:checked ~ #show-menu .btn6:nth-child(6) {
   top: 200px;
   opacity: 1;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
@@ -170,18 +180,18 @@ box-shadow: 0 1px 10px black;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   z-index: -2;
 }
-input#toggle:checked ~ #show-menu .btn:nth-child(7) {
+input#toggle:checked ~ #show-menu .btn7:nth-child(7) {
   top: 140px;
   left: -140px;
   opacity: 1;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
-input#toggle:checked ~ #show-menu .btn:nth-child(8) {
+input#toggle:checked ~ #show-menu .btn8:nth-child(8) {
   left: -200px;
   opacity: 1;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
-input#toggle:checked ~ #show-menu .btn:nth-child(9) {
+input#toggle:checked ~ #show-menu .btn9:nth-child(9) {
   top: -140px;
   left: -140px;
   opacity: 1;
