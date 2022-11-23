@@ -12,7 +12,7 @@
     height: 90%;
     width: 90%;
     text-align: justify;
-    font-size: 18px;
+    font-size: 16.5px;
     line-height: 1.8;
 
 
@@ -109,9 +109,11 @@ width: 100%;
 
 }
 /* Remove extra left and right margins, due to padding in columns */
-.row {margin: 3% 7.5%;
+.row {
+margin: 3% 7.5%;
 background: white;
 width: 85%;
+height: 50%;
 color:#050A30;
 font-family: sans-serif;
 ;}
@@ -143,6 +145,7 @@ margin-bottom: 20px;
 }
 .row{
 margin-top:15%;
+
 
 }
 .btn-back{
