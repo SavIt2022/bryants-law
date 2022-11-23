@@ -113,7 +113,7 @@ width: 100%;
 margin: 3% 7.5%;
 background: white;
 width: 85%;
-height: 50%;
+height: 520px;
 color:#050A30;
 font-family: sans-serif;
 ;}
@@ -145,6 +145,7 @@ margin-bottom: 20px;
 }
 .row{
 margin-top:15%;
+height: auto;
 
 
 }
