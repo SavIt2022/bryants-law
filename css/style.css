@@ -12,7 +12,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #EFEFEF;
+  background: #050A30;
 }
 button:hover {
   
@@ -87,7 +87,7 @@ button:hover {
   
 
 .slide-container{
-  max-width: 1120px;
+  max-width: 1280px;
   width: 100%;
   padding: 40px 0;
 }
@@ -107,6 +107,7 @@ button:hover {
   align-items: center;
   padding: 10px 14px;
   height: 225px;
+  
   font-family: sans-serif;
 }
 .image-content{
@@ -114,13 +115,14 @@ button:hover {
   row-gap: 5px;
   padding: 25px 0;
 }
+
 .overlay{
   position: absolute;
   left: 0;
   top: 0;
   height: 100%;
   width: 100%;
-  background: #050A30;
+
   border-radius: 25px 25px 0 25px;
 }
 .overlay::before,
@@ -131,7 +133,7 @@ button:hover {
   bottom: -40px;
   height: 40px;
   width: 40px;
-  background: #050A30;
+
 }
 .overlay::after{
   border-radius: 0 25px 0 0;
@@ -139,8 +141,8 @@ button:hover {
 }
 .card-image{
   position: relative;
-  height: 150px;
-  width: 150px;
+  height: 200px;
+  width: 300px;
   border-radius: 10%;
   background: #FFF;
   padding: 3px;
@@ -150,15 +152,20 @@ button:hover {
   width: 100%;
   object-fit: cover;
   border-radius: 10%;
-  background: #050A30;}
+ }
 .name{
   font-size: 18px;
   font-weight: 500;
-  color: #333;
+  color: black;
+  font-family: sans-serif;
+  line-height: 1.5;
 }
 .description{
   font-size: 14px;
-  color: #707070;
+ 
+ font-family: sans-serif;
+ line-height: 1.5;
+  color: black;
   text-align: center;
 }
 .button{
