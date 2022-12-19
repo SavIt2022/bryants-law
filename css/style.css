@@ -212,9 +212,13 @@ text-decoration: underline;
 }
 .swiper-pagination-bullet{
   color:white;  opacity: 1;
+  background: white;
+
 }
 .swiper-pagination-bullet-active{
-  color:white;}
+  color:white;
+
+}
 
 @media screen and (max-width: 768px) {
   .slide-content{
