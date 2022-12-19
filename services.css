@@ -46,7 +46,7 @@ body{
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: #4070F4;
+  background-color: white;
   border-radius: 25px 25px 0 25px;
 }
 .overlay::before,
@@ -57,7 +57,7 @@ body{
   bottom: -40px;
   height: 40px;
   width: 40px;
-  background-color: #4070F4;
+  background-color: white;
 }
 .overlay::after{
   border-radius: 0 25px 0 0;
@@ -76,16 +76,16 @@ body{
   width: 100%;
   object-fit: cover;
   border-radius: 50%;
-  border: 4px solid #4070F4;
+  border: 4px solid white;
 }
 .name{
   font-size: 18px;
   font-weight: 500;
-  color: #333;
+  color: black;
 }
 .description{
   font-size: 14px;
-  color: #707070;
+  color: black;
   text-align: center;
 }
 .button{
@@ -93,22 +93,22 @@ body{
   font-size: 16px;
   color: #FFF;
   padding: 8px 16px;
-  background-color: #4070F4;
+  background-color: white;
   border-radius: 6px;
   margin: 14px;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 .button:hover{
-  background: #265DF2;
+  background: white;
 }
 
 .swiper-navBtn{
-  color: #6E93f7;
+  color: black;
   transition: color 0.3s ease;
 }
 .swiper-navBtn:hover{
-  color: #4070F4;
+  color: white;
 }
 .swiper-navBtn::before,
 .swiper-navBtn::after{
@@ -121,11 +121,11 @@ body{
   left: 0;
 }
 .swiper-pagination-bullet{
-  background-color: #6E93f7;
+  background-color: white;
   opacity: 1;
 }
 .swiper-pagination-bullet-active{
-  background-color: #4070F4;
+  background-color:white;
 }
 
 @media screen and (max-width: 768px) {
