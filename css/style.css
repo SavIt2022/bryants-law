@@ -187,6 +187,13 @@ button:hover {
   background: #050A30;
 }
 
+.button a{
+  color: white;
+  text-decoration: none;
+}
+.button a:hover{
+text-decoration: underline;
+}
 .swiper-navBtn{
   color:white;
   transition: color 0.3s ease;
