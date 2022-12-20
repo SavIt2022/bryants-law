@@ -48,3 +48,9 @@
 .question button .d-arrow.rotate{
     transform: rotate(180deg);
 }
+@media screen and  (max-width : 1024px) {
+    .row1{
+        margin-bottom: 10%;
+    }
+    
+}
