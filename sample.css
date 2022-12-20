@@ -1,13 +1,15 @@
 .about{
-    width:90%;
+    width:85%;
     height: auto;
     background:white;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 5%;
+    margin-left:7.5%;
     padding: 5%;
     margin-top: 4%;
+    border-radius: 5px;
+
   
 
    

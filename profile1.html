@@ -28,6 +28,16 @@
     <div class="container text-center">
 
         <div class="row">
+
+            <div class="col-4">
+                <img src="bryImage/Bryant-removebg-preview.png" class="card-img-top" alt="...">
+    <br><br>
+                <h6>Name : TIMOTHY I.A. BRYANT</h6>
+                <h6>Position : Managing Partner</h6>
+            
+                <h6>Tel : +254768186210</h6>
+                <h6>Email : tb@bryantslaw.org</h6>
+              </div>
           <div class="col-8">
            <h2> TIMOTHY I.A. BRYANT</h2>
            <p>An Advocate of the High Court of Kenya since 1998, Timothy holds a Bachelor of Laws degree from the University of London and a Diploma in Law from the Kenya School of Law. 
@@ -54,15 +64,7 @@
             <i>criminal law, civil litigation including torts, land law, banking law, human rights, constitutional and public interest litigation</i> 
             </p>
           </div>
-          <div class="col-4">
-            <img src="bryImage/Bryant-removebg-preview.png" class="card-img-top" alt="...">
-<br><br>
-            <h6>Name : TIMOTHY I.A. BRYANT</h6>
-            <h6>Position : Managing Partner</h6>
-        
-            <h6>Tel : +254768186210</h6>
-            <h6>Email : tb@bryantslaw.org</h6>
-          </div>
+
         </div>
       </div>
 
@@ -73,8 +75,11 @@
             width: 200px;
         }
         .row{
-            color: white;
+            background-color: white;
+            color:black;
+            border-radius: 5px;
             margin-top: 4%;
+            padding: 5%;
             
         }
         .row .col-8 h2{
@@ -86,18 +91,39 @@
             line-height: 1.7;
             text-align: justify;
             font-size: 18px;
-            width: 90%;
+            width: 100%;
         }
         
         .row .col-4 {
             text-align: left;
         }
 
+
         body{
             background: #050A30;
             height: auto;
             width: 100%;
         }
+        @media screen and (max-width: 1024px) {
+    .col-8{
+        width: 90%;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    .col-4{
+        width: 90%;
+        padding-top: 1%;
+        margin-left: 5%;
+    }
+
+    .row{
+        margin: 0 auto;
+        height: auto;
+        background-color: white;
+        color:black;
+    }
+
+  }
         h1{
        
   
@@ -177,6 +203,10 @@ font-size: 23px;
   width: 300px;
   top: -1%;
   
+  }
+  .container.text-center .row{
+    width: 100%;
+    
   }
 
 

@@ -28,6 +28,15 @@
     <div class="container text-center">
 
         <div class="row">
+            <div class="col-4">
+                <img src="bryImage/Adrianna-removebg-preview.png" class="card-img-top" alt="...">
+    <br><br>
+                <h6>Name :  ADRIANNA A. McGARVEY</h6>
+                <h6>Position : Of Counsel</h6>
+            
+                <h6>Tel : +254 718 471 147</h6>
+                <h6>Email : aam@bryantslaw.org</h6>
+              </div>
           <div class="col-8">
             <h2> ADRIANNA A. McGARVEY</h2>
             <p >Adrianna, a UK citizen, is a member of international bar association and a resident of Kenya, 
@@ -48,15 +57,7 @@
           
  
           </div>
-          <div class="col-4">
-            <img src="bryImage/Adrianna-removebg-preview.png" class="card-img-top" alt="...">
-<br><br>
-            <h6>Name :  ADRIANNA A. McGARVEY</h6>
-            <h6>Position : Of Counsel</h6>
-        
-            <h6>Tel : +254 718 471 147</h6>
-            <h6>Email : aam@bryantslaw.org</h6>
-          </div>
+
         </div>
       </div>
 
@@ -67,8 +68,11 @@
             width: 200px;
         }
         .row{
-            color: white;
+            background-color: white;
+            color:black;
+            border-radius: 5px;
             margin-top: 4%;
+            padding: 5%;
             
         }
         .row .col-8 h2{
@@ -80,11 +84,30 @@
             line-height: 1.7;
             text-align: justify;
             font-size: 18px;
-            width: 90%;
+            width: 100%;
         }
         
         .row .col-4 {
             text-align: left;
+        }
+        @media screen and (max-width: 1024px) {
+    .col-8{
+        width: 90%;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    .col-4{
+        width: 90%;
+        padding-top: 1%;
+        margin-left: 5%;
+    }
+
+    .row{
+        margin: 0 auto;
+        height: auto;
+        background-color: white;
+        color:black;
+    }
         }
 
         body{
