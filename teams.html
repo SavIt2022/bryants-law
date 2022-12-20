@@ -15,29 +15,36 @@
       integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
       crossorigin="anonymous"></script>
     <title>Team</title>
+    <link rel="stylesheet" href="servicex.css">
 </head>
 <body>
   
-  <div class="about-logo ">
-    <img src="bryImage/2 2.png" alt="">
-  </div>
-  <button class="btn-back" onclick="location.href='index.html'; ">
-    <i class="material-icons md-36"> <a>home</a> </i>
-</button>
-<div class="icon-contact">
-  <i class="material-icons md-36">person</i>
-  <h4>Our Team</h4>
+  <div class="row1">
+    <button class="btn-back" onclick="location.href='index.html'; ">
+        <i class="material-icons md-36"> <a href="index.html">home</a> </i>
+    </button>
+    <div class="column1">
+        <div class="about-logo ">
+            <img src="bryImage/2 2.png" alt="">
+          </div>
+
+        <div class="icon-contact">
+            <i class="material-icons md-36">person</i>
+            <h4>Biography</h4>
+      
+    </div>
+
+    </div>
 </div>
 
-</div>
-<div class="team-content">
+<div class="team-content" style="margin-top: 2%;">
 
    
     <p>Our core team of highly skilled professionals draw on our richly diverse experiences and expertise to provide our clients
       with <br> sound and practical advice aimed at strategically and comprehensively achieving your goals! If you are looking for advice  <br> 
        or action on a particular issue, please visit our areas of expertise page. Otherwise, allow us to introduce our team: </p>
     </div>
-    <div class="row">
+    <div class="row" style="background: #050A30;">
       <div class="col-sm-3">
         <div class="card">
             <img src="bryImage/Bryant-removebg-preview.png" class="card-img-top" alt="...">
@@ -226,6 +233,9 @@ margin: 0 auto;
         display: block;
         margin-left: -10%;
       }
+      .team-content p{
+        text-align: justify;
+      }
   }
   
     body{
@@ -236,95 +246,8 @@ margin: 0 auto;
               overflow-y:scroll;
               width: auto;
     }
-    button:hover {
   
-  box-shadow: 0 1px 15px rgba(4, 242, 250, 0.438), 0 1px 28px rgba(5, 219, 247, 0.815);
-  }
-  
-  .btn-back{
-        background: #050A30;
-        box-shadow: 0 1px 10px black;
-         color: white;
-        margin-left: 89%;
-        border: none;
-        margin-top: 1%;
-        border-radius: 50%;
-        height:85px;
-        width: 85px;
-       
-    }
-  
-    .btn-back i a{
-        text-decoration:none ;
-        color: white;
-        font-size: 20px;
-        margin: 0 auto;
-        
-  
-      
-  
-    }
-  
-  
-  .icon-contact{
-  display: block;
-  margin: 0 auto;
-  text-align: center;
-  margin-top: -5%;
-  
-    color: white;
-    padding: 10px;
-  
-  }
-  .icon-contact i{
-    color: white;
-    font-size: 23px;
-    
-  }
-  .icon-contact h4{
-    color: white;
-  font-size: 23px;
-  }
-    
-  
-  .about-logo{
-    margin-top: -5%;
-    margin-left: 5%;
-    display: block;
-    height: 100px;
-    width: 180px;
-    background: #050A30;
-  
-  
-        }
-          .about-logo img{
-            display: block;
-    margin-left: 0%;
-    height: 300px;
-    width: 300px;
-    top: -1%;
-    
-    }
-  
-  
-  
-  
-  
-  
-      .about-img {
-        height: 33%;
-        width: 33%;
-      margin-left: 6%;
-      margin-top:3.5%;
-  }
-  
-  /* Resize images */
-  .about-img img {
-      width: 100%;
-      height: auto;
-      opacity: 90%;
-  }
-  
+
   
     .services-title{
     margin-top: -22%;
