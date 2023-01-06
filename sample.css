@@ -72,7 +72,6 @@
     .content{
         height: auto;
     }
-
         } */
 
     @media screen and (max-width:650px){
@@ -149,8 +148,8 @@
     padding:  10px;
 }
 .content-about{
-    width: 1280px;
-    max-width: 95%;
+    width: 1024px;
+    max-width: 100%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -176,7 +175,6 @@
     .content{
         height: auto;
     }
-
         } */
 
     @media screen and (max-width:650px){
