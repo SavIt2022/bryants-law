@@ -6,7 +6,8 @@
     justify-content: center;
     align-items: center;
     margin-left:7.5%;
-    padding: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     margin-top: 4%;
     border-radius: 5px;
 
@@ -21,6 +22,8 @@
     width: 600px;
     max-width: 100%;
     padding-right: 5%;
+    display: block;
+    margin: 0 auto;
 
 }
 @media screen and (max-width:1280){
@@ -43,6 +46,8 @@
     width: 550px;
     max-width: 100%;
     padding:  10px;
+    display: block;
+    margin: 0 auto;
 }
 .content{
     width: 1280px;
