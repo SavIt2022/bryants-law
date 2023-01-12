@@ -26,7 +26,6 @@ margin-top: -6%;
 
 }
 button:hover {
-
     box-shadow: 0 1px 15px rgba(4, 242, 250, 0.438), 0 1px 28px rgba(5, 219, 247, 0.815);
     
     }
@@ -112,6 +111,9 @@ border: 1px #050A30 ;
 .row1{
 
 width: 100%;
+margin-top: 1%;
+position: flex;
+
 
 }
 /* Remove extra left and right margins, due to padding in columns */
@@ -155,12 +157,35 @@ height: auto;
 
 
 }
+
 .btn-back{
 height: 45px;
 width: 45px;
 margin-top: 12%;
 }
+.col-sm-5.col-md-6{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    margin-left: 5%;
 }
+.col-sm-5.col-md-6 img{
+    display: block;
+    margin: 0 auto;
+
+}
+.col-sm-5.offset-sm-2.col-md-6.offset-md-0 h3{
+    text-align: center;
+    margin-top: 4%;
+
+}
+.col-sm-5.offset-sm-2.col-md-6.offset-md-0{
+    width: 90%;
+    margin-left: 5%;
+}
+
+}
+
 body{
 background: #050A30;
 }
